@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#general{
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+   /* border: 1px solid #ccc;*/
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background: rgb(98, 98, 201);
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#menu{
+    background-color: #eeeeee;
+}
+
+#menu ul li{
+    /*display: inline-block;*/
+    display: block;
+    float: left;
+    
+    border-right: 1px solid #ccc;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #444;
+}
+
+#menu ul li:hover{
+    background-color: rgb(43, 43, 180);
+    cursor: pointer;
+}
+
+#menu ul li:hover a{
+    color: white;
+}
+
+#contenido{
+    float: left;
+    width: 70%;
+   /* border: 1px solid green;*/
+}
+
+#lateral{
+    float: left;
+    width: 30%;
+    min-height: 500px;
+    max-height: 650px;
+    text-align: center;
+    overflow-y: scroll;
+ /*   border: 1px solid red;*/
+}
+
+#contenido > h1{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    color: #444;
+    text-shadow: 1px 1px 2px gray;
+}
+
+#contenido .caja{
+    position: relative;
+    width: 40%;
+    height: 240px;
+    background-color: #ccc;
+    border: 1px solid grey;
+    border-radius: 50px 10px 4px 61px;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 200px;
+    color: black;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 15px black;
+
+}
+
+.sombra-interior{
+    box-shadow: 5px 5px 10px gray inset !important;
+
+}
+
+footer{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background: #eee;
+    text-align: center;
+    color: #444;
+    border-top: 1px solid #ccc;
+}
+
+.libre{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+   
+
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+}
+
+.libre1{
+    z-index: 2;
+}
+
+.libre2{
+    background-color: green;
+    top: 280px;
+    left: 50%;
+    z-index: 1;
+}
+
+.fija{
+    position: fixed;
+    top: 50%;
+    left: 0px;
+   
+
+    border: 1px solid black;
+    background-color: red;
+    color: blue;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+}
+

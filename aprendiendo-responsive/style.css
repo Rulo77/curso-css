@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+#container{
+   
+    width: 70%;
+    background: red;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+header{
+    width: 100%;
+    background: lightblue;
+    color: #333;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
+
+aside{
+    width: 25%;
+    min-height: 700px;
+    float: left;
+    background: #ccc;
+    text-align: center;
+    line-height: 700px;
+}
+
+#articles{
+
+    background: lemonchiffon;
+    width: 75%;
+    min-height: 700px;
+    float: left;
+}
+
+#articles article{
+    width: 25%;
+    height: 150px;
+    background: green;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+    border: 2px solid white;
+    float: left;
+    margin: 15px;
+}
+
+/*Responsive*/
+
+/*desde la anchura 0px hasta los 878px se ejecutaran estos estilos*/
+@media(max-width: 878px){
+   #articles article{
+     width: 40%;
+     background: red;
+   }
+
+   #articles{
+       width: 100%;
+   }
+
+   #container{
+       overflow: hidden;
+   }
+
+   aside{
+       float: none;
+       min-height: auto;
+       line-height: 20px;
+       width: 90%;
+       padding: 20px;
+   }
+
+}
+
+@media(max-width: 632px){
+    #articles article{
+      width: 90%;
+      background: blue;
+    }
+ 
+ }

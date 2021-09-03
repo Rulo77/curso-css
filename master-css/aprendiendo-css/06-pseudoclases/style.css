@@ -1,0 +1,56 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+/*primer hijo*/
+ul li:first-child{
+    color: purple;
+    font-weight: bold;
+}
+
+/*selecciona cualquier elemento hijo indicado*/
+ul li:nth-child(2){
+    color: orange;
+    font-weight: bold;
+}
+
+/*ultimo elemento hijo*/
+ul li:last-child{
+    color: grey;
+    font-weight: bold;
+}
+
+#mi-enlace{
+    font-size: 30px;
+    color: lightsalmon;
+}
+
+#mi-enlace:link{
+    color: red;
+}
+
+#mi-enlace:visited{
+    color: orangered;
+}
+
+#mi-enlace:hover{
+    color: blue;
+}
+
+#mi-enlace:active{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    border: 4px dashed red;
+}

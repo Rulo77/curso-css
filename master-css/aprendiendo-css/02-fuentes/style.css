@@ -1,0 +1,31 @@
+h1{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 45px;
+    /*Colores*/
+    /*Colores del sistema*/
+    color: mediumpurple;
+
+    /*Colores hexadecimales*/
+    color: #6b5353;
+
+    /*Colores RGB*/
+    color: rgb(255, 255, 107);
+
+    /*Colores RGBA*/
+    color: RGBA(255, 19, 38, 1);
+}
+
+h3{
+    font-family: "comic Sans MS";
+    font-size: 20px;
+    font-weight: lighter;
+    color: olive;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
